@@ -1,204 +1,141 @@
-减脂计划总结（你的版本）
-基础情况
-年龄：27岁
-身高：175cm
-体重：86.5kg
-每周力量训练：周一、周三、周五
-每天爬坡有氧：30分钟
-当前目标：
-减脂，同时尽量保住肌肉和力量
-一、饮食计划
-
-你的饮食不用大改，在现在基础上稍微补一点就够。
-
-早餐
-
-固定：
-
-鸡蛋 3个
-
-增加一份主食（任选其一）：
-
-香蕉 1根
-或者
-燕麦片 50g
-午餐
-
-固定：
-
-去皮卤鸡腿 1～2个
-
-搭配主食（任选）：
-
-米饭 1碗
-或
-玉米 1～2根
-
-搭配蔬菜（任选）：
-
-黄瓜
-生菜
-圣女果
-下午加餐（下午4点左右）
-
-三选一：
-
-希腊酸奶 一盒
-香蕉 一根
-蛋白粉 一勺
-
-目的：
-
-防止下班太饿，晚饭暴食。
-
-晚餐
-
-固定：
-
-去皮卤鸡腿 1～2个
-
-主食：
-
-米饭 半碗～1碗
-或
-玉米 1根
-
-蔬菜：
-
-任选：
-
-黄瓜
-生菜
-圣女果
-最方便储存的蔬菜推荐
-6
-
-优先买这几个：
-
-黄瓜
-
-洗完直接吃。
-
-圣女果
-
-洗完直接吃。
-
-生菜
-
-买即食包装最方便。
-
-玉米
-
-一次煮几根，放冰箱冷藏保存。
-
-每周训练安排
-周一：胸 + 肩 + 三头
-Bench Press 卧推
-
-5组 × 5次
-
-重量：
-
-57.5kg～60kg
-
-Incline Dumbbell Press 上斜哑铃卧推
-
-3组 × 8～10次
-
-Chest Press 器械推胸
-
-3组 × 10～12次
-
-Lateral Raise 哑铃侧平举
-
-4组 × 15～20次
-
-Triceps Pushdown 绳索下压
-
-3组 × 12～15次
-
-周三：背 + 二头
-Deadlift 硬拉
-
-建议：
-
-110kg × 3次 × 3组
-
-不冲极限。
-
-Lat Pulldown 高位下拉
-
-4组 × 10次
-
-Seated Cable Row 坐姿划船
-
-3组 × 10～12次
-
-Face Pull 面拉
-
-3组 × 15次
-
-Dumbbell Curl 哑铃弯举
-
-3组 × 12次
-
-周五：腿
-Back Squat 深蹲
-
-5组 × 5次
-
-重量：
-
-75～80kg
-
-Romanian Deadlift 罗马尼亚硬拉
-
-3组 × 8～10次
-
-Leg Press 腿举机
-
-3组 × 12～15次
-
-Leg Curl 腿弯举
-
-3组 × 12～15次
-
-Standing Calf Raise 提踵
-
-4组 × 15～20次
-
-有氧安排
-
-每天：
-
-爬坡走 30分钟
-
-建议：
-
-坡度：8～12
-速度：4～6 km/h
-
-强度：
-微喘即可，能说话就行。
-
-每周观察指标
-
-每周固定早晨空腹记录：
-
-体重
-腰围
-镜子状态
-卧推和深蹲力量有没有明显下降
-最重要的目标
-
-接下来目标：
-
-86.5kg → 80kg左右
-
-速度不用快：
-
-每周下降 0.5kg 左右最稳。
-
-你的核心就一句话：
-
-吃够蛋白质，训练别掉力量，慢慢减脂。
+```latex
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{enumitem}
+\usepackage{ctex}
+
+\begin{document}
+
+\title{一周减脂执行记录表}
+\date{}
+\maketitle
+
+\section*{基础信息}
+
+\begin{itemize}[leftmargin=2em]
+    \item 年龄：27岁
+    \item 身高：175 cm
+    \item 初始体重：86.5 kg
+    \item 训练基础：有一定力量训练经验
+    \item 力量训练频率：每周三次（周一、周三、周五）
+    \item 有氧：每日爬坡30分钟
+\end{itemize}
+
+\section*{饮食计划}
+
+\subsection*{早餐}
+\begin{itemize}
+    \item 鸡蛋 3个
+    \item 黑咖啡 / 无糖茶（可选）
+\end{itemize}
+
+\subsection*{午餐}
+\begin{itemize}
+    \item 去皮卤鸡腿 2个
+    \item 玉米 1根
+    \item 生食蔬菜：
+    \begin{itemize}
+        \item 小番茄
+        \item 黄瓜
+        \item 生菜
+    \end{itemize}
+\end{itemize}
+
+\subsection*{晚餐}
+\begin{itemize}
+    \item 去皮卤鸡腿 2个
+    \item 玉米 1根
+    \item 生食蔬菜适量
+\end{itemize}
+
+\subsection*{训练日前补充（可选）}
+\begin{itemize}
+    \item 香蕉 1根
+    \item 或乳清蛋白 1份
+\end{itemize}
+
+\section*{力量训练计划（三分化）}
+
+\subsection*{周一 Push（胸 / 肩 / 三头）}
+
+\begin{enumerate}
+    \item 杠铃卧推 5组 $\times$ 5次（60kg）
+    \item 上斜哑铃卧推 4组 $\times$ 8--12次
+    \item 坐姿哑铃肩推 4组 $\times$ 10次
+    \item 绳索夹胸 3组 $\times$ 12--15次
+    \item 绳索下压 4组 $\times$ 12次
+\end{enumerate}
+
+\subsection*{周三 Pull（背 / 二头）}
+
+\begin{enumerate}
+    \item 硬拉 3组 $\times$ 3次（120kg）
+    \item 引体向上 / 高位下拉 4组
+    \item 杠铃划船 4组
+    \item 坐姿划船 3组
+    \item 哑铃弯举 3组
+    \item 锤式弯举 3组
+\end{enumerate}
+
+\subsection*{周五 Legs（腿）}
+
+\begin{enumerate}
+    \item 深蹲 5组 $\times$ 5次（80kg）
+    \item 腿举 4组 $\times$ 12次
+    \item 罗马尼亚硬拉 4组
+    \item 腿屈伸 3组
+    \item 腿弯举 3组
+    \item 提踵 4组
+\end{enumerate}
+
+\section*{每日有氧}
+
+\begin{itemize}
+    \item 爬坡机：30分钟
+    \item 建议坡度：8--12
+    \item 速度：4.5--6 km/h
+\end{itemize}
+
+\section*{一周反馈记录}
+
+\subsection*{体重}
+
+\[
+Day\ 1 = \underline{\hspace{2cm}} \ kg
+\]
+
+\[
+Day\ 7 = \underline{\hspace{2cm}} \ kg
+\]
+
+\[
+Average\ Weight = \underline{\hspace{2cm}} \ kg
+\]
+
+\subsection*{腰围}
+
+\[
+Waist = \underline{\hspace{2cm}} \ cm
+\]
+
+\subsection*{执行情况}
+
+\begin{itemize}
+    \item 早餐完成：\underline{\hspace{2cm}}
+    \item 午餐完成：\underline{\hspace{2cm}}
+    \item 晚餐完成：\underline{\hspace{2cm}}
+    \item 有氧完成：\underline{\hspace{2cm}}
+    \item 力量训练完成：\underline{\hspace{2cm}}
+\end{itemize}
+
+\subsection*{身体反馈}
+
+\begin{itemize}
+    \item 饥饿感：\underline{\hspace{6cm}}
+    \item 训练状态：\underline{\hspace{6cm}}
+    \item 睡眠情况：\underline{\hspace{6cm}}
+    \item 镜子里的变化：\underline{\hspace{6cm}}
+\end{itemize}
+
+\end{document}
+```
